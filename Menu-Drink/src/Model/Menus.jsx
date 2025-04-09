@@ -18,7 +18,7 @@ function Menu({ show, handleClose, onMenuAdded }) {
         };
 
         try {
-            const res = await fetch('http://localhost:3000/api/menu', {
+            const res = await fetch('https://menu-drinks-backed.onrender.com/api/menu', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newMenu),
