@@ -13,7 +13,7 @@ function Menuitem({ show, handleClose, onItemAdded }) {
     useEffect(() => {
         const fetchMenus = async () => {
             try {
-                const res = await fetch('http://localhost:3000/api/menu');
+                const res = await fetch('https://menu-drinks-backed.onrender.com/api/menu');
                 const data = await res.json();
                 setMenuOptions(data);
             } catch (err) {
@@ -35,7 +35,7 @@ function Menuitem({ show, handleClose, onItemAdded }) {
         };
 
         try {
-            const res = await fetch('http://localhost:3000/api/MenuItem', {
+            const res = await fetch('https://menu-drinks-backed.onrender.com/api/MenuItem', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
