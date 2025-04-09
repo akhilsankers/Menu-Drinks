@@ -1,0 +1,83 @@
+.header-container {
+  position: relative;
+}
+
+.heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 63px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-size: 40px;
+  pointer-events: none; /* Prevent blocking clicks */
+}
+
+.heading img,
+.heading .text-container {
+  pointer-events: auto; /* Allow interaction with logo/text */
+}
+
+.heading img {
+  margin-top: 14px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    justify-content: center !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .heading img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .text-container {
+    display: none !important;
+  }
+}
+
+.navbar {
+  z-index: 5;
+  position: relative;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.menu-heading {
+  background-image: url(../assets/bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding-top: 0.5rem;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  color: white;
+  align-items: center;
+}
+
+.menu-heading h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 2px rgb(130, 0, 0);
+}
+
+.menu-heading p {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.745);
+  font-family: "Kelly Slab", sans-serif;
+}

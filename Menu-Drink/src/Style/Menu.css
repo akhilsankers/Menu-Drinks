@@ -1,0 +1,76 @@
+.menu {
+    background-image: url(../assets/bg2.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.custom-button {
+    background-color: #000000;
+    color: white;
+    border: 2px solid #0796EF;
+    border-radius: 0;
+    padding: 10px 25px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.custom-button:hover {
+    background-color: #0796EF;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.content {
+    background-image: url(../assets/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    height: auto;
+    color: white;
+    padding: 50px 20px; /* Reduced for mobile friendliness */
+    align-items: center;
+}
+
+.menu-content {
+    position: relative;
+    padding: 2rem;
+    height: 100%;
+    /* Removed border */
+}
+
+.img-top-left {
+    position: absolute;
+    top: -180px;
+    left: -50px;
+    width: auto;
+    height: 300px;
+}
+
+.img-bottom-right {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    width: auto;
+    height: 200px;
+}
+
+.discription {
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.745);
+    font-family: "Kelly Slab", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.lin {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background-color: #000000;
+}
+
+.rox {
+    background-color: #000;
+    margin: 0;
+}
+
+.footer-bg {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+.box {
+    height: 150px; /* Fixed height for all boxes */
+    width: 100%;
+    max-width: 414px;
+    border: 2px solid #ffffff95;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: transparent;
+    position: relative;
+  }
+  
+  /* Box 2 image styling */
+  .box2 img {
+    width: 90px;
+    height: 80px;
+    background-color: #000;
+    transform: translateY(-40px);
+    margin-bottom: -20px; 
+  }
+  
