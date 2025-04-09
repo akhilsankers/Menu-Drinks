@@ -12,7 +12,7 @@ function Menu({ refresh }) {
 
     const fetchMenus = async () => {
         try {
-            const res = await fetch('http://localhost:3000/api/menu');
+            const res = await fetch('https://menu-drinks-backed.onrender.com/api/menu');
             const data = await res.json();
             setMenuOptions(data);
         } catch (err) {
@@ -22,7 +22,7 @@ function Menu({ refresh }) {
 
     const fetchMenuItems = async () => {
         try {
-            const res = await fetch('http://localhost:3000/api/MenuItem');
+            const res = await fetch('https://menu-drinks-backed.onrender.com/api/MenuItem');
             const data = await res.json();
             setMenuItems(data);
         } catch (err) {
