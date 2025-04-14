@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Components/Header';
 import Menu from './Components/Menu';
+import Footer from './Components/Footer'
 
 function App() {
     const [refresh, setRefresh] = useState(false);
@@ -13,6 +14,7 @@ function App() {
         <div>
             <Header onMenuAdded={handleDataChanged} onItemAdded={handleDataChanged} />
             <Menu refresh={refresh} />
+            <Footer/>
         </div>
     );
 }
