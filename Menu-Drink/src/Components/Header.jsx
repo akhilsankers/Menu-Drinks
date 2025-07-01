@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo.jpg';
 import '../Style/Header.css';
 import MenuModal from '../Model/Menus';
 import MenuItem from '../Model/Menuitem';
@@ -24,10 +24,10 @@ function Header({ onMenuAdded, onItemAdded }) {
                     <img src={Logo} alt="Logo" width="60" height="60" className="me-2" />
                     <div className="text-container d-none d-md-flex">
                         <div>
-                            <span style={{ color: "rgb(0, 102, 255)" }}>DEEP </span>
-                            <span className="text-white">NET</span>
+                            <span style={{ color: "rgb(0, 102, 255)" }}>Fresh </span>
+                            <span className="text-white">Hot</span>
                         </div>
-                        <div style={{ color: "rgb(96, 96, 96)" }}>SOFT</div>
+                        <div style={{ color: "rgb(96, 96, 96)" }}>Spice</div>
                     </div>
                 </div>
 
