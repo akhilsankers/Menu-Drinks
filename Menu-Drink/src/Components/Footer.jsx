@@ -9,7 +9,7 @@ function Footer() {
 
     <>
       <Container fluid className="footer">
-      <Row className="align-items-center text-center text-md-start  rox  py-5 ">
+      <Row className="align-items-center text-center text-md-start bg-dark  rox  py-5 ">
         <Col md={4} className="d-flex justify-content-center justify-content-md-start mb-5 mb-md-0">
           <div className="box text-center text-md-start">
             <h4 style={{ color: "rgb(0, 102, 255)" }}>Connect with Us</h4>
