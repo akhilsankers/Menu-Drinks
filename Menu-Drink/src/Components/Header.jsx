@@ -42,8 +42,6 @@ function Header({ onMenuAdded, onItemAdded }) {
                                     <NavDropdown.Item onClick={handleShow}>New Menu</NavDropdown.Item>
                                     <NavDropdown.Item onClick={itemShow}>New Item</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#reservation">MAKE A RESERVATION</Nav.Link>
-                                <Nav.Link href="#contact">CONTACT US</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
