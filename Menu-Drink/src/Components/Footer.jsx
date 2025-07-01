@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Style/Footer.css';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/Logo.jpg';
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaPhoneAlt, FaMapMarkerAlt, FaEnvelope, FaMailBulk } from 'react-icons/fa';
 
 function Footer() {
@@ -15,10 +15,10 @@ function Footer() {
             <h4 style={{ color: "rgb(0, 102, 255)" }}>Connect with Us</h4>
             <p style={{ color: "rgb(96, 96, 96)" }}>
               <FaPhoneAlt size={14} className="me-2 text-warning" />
-              +91 9567843340</p>
+              +91 9********</p>
             <p style={{ color: "rgb(96, 96, 96)" }}>
               <FaEnvelope size={14} className="me-2 text-warning" />
-              info@deepnetsoft.com</p>
+              info*******@gmail.com</p>
           </div>
         </Col>
 
@@ -30,9 +30,9 @@ function Footer() {
               className="d-inline-block align-top"
             />
             <h2>
-              <span style={{ color: "rgb(0, 102, 255)" }}>DEEP </span>
-              <span className="text-white">NET </span>
-              <span style={{ color: "rgb(96, 96, 96)" }}>SOFT</span>
+              <span style={{ color: "rgb(0, 102, 255)" }}>Hot </span>
+              <span className="text-white">Fresh </span>
+              <span style={{ color: "rgb(96, 96, 96)" }}>Spicie</span>
             </h2>
             <p className="mb-0 d-flex justify-content-center gap-3">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: '#606060' }}>
@@ -56,7 +56,7 @@ function Footer() {
             <h4 style={{ color: "rgb(0, 102, 255)" }}>FIND US</h4>
             <p style={{ color: "rgb(96, 96, 96)" }} className="d-flex align-items-center mb-0 ms-5 me-5 text-center ">
               <FaMapMarkerAlt size={14} className="me-2 text-warning" />
-              First floor, Geo Infopark, Infopark EXPY, Kakkanad
+              First ****, Geo *****,  EXPY, kochi
             </p>
           </div>
         </Col>
@@ -64,7 +64,7 @@ function Footer() {
 
       <Row className="align-items-center bg-dark text-center text-md-between py-3 px-md-5 ">
         <Col md={6} className="text-white mb-2 mb-md-0">
-          © 2024 Deepnetsoft Solutions. All rights reserved.
+          © 2024 Fresh and Spicie.
         </Col>
         <Col md={6} className="text-md-end">
           <a href="#" className="text-white text-decoration-none me-3">Terms of Service</a>
