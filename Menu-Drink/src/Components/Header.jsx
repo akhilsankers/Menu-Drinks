@@ -31,7 +31,7 @@ function Header({ onMenuAdded, onItemAdded }) {
                     </div>
                 </div>
 
-                <Navbar expand="lg" className="bg-black text pt-5 pb-2 mb-0 navbar-fixed" variant="dark">
+                <Navbar expand="lg" className="bg-dark text pt-5 pb-2 mb-0 navbar-fixed" variant="dark">
                     <Container>
                         <Navbar.Brand href="#"></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
